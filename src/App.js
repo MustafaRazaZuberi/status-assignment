@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>
+      <h1>redux class</h1>
+
+      <div className="main" style={{display :"flex",flexDirection :"row", justifyContent : "center",alignItems : "center"}}>
+      <button className='btn btn-primary' style={{fontSize: "32px" , paddingLeft : "32px" , paddingRight : "32px"}}>+</button>
+      <h3 style={{marginLeft : '30px',marginRight : '30px'}}>0</h3>
+      <button className='btn btn-primary' style={{fontSize: "32px" , paddingLeft : "32px" , paddingRight : "32px"}}>-</button>
+
+      </div>
+      
+          </div>
+  )
 }
 
-export default App;
+export default App
